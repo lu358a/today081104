@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="tw.edu.nfu.eZTravel" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<!-- versionCode is optional and Android only -->
+  <name>Blog</name>
+  <description>
+      部落格
+  </description>
+  <author href="https://www.nfu.edu.tw/zh/" email="40741417@nfu.edu.tw">
+      lu358a
+  </author>
+  <content src="index.html" />
+  <platform name="android">
+    <icon src="images/cat.jpg"/>
+  </platform>
+</widget>
