@@ -6,99 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-    <div class="ui-grid-b">
-        <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px"></div></div>
-        <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px"></div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px"></div></div>
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1></h1>
+            <ul data-role="listview" data-inset="true" data-divider-theme="a">
+                <li style="font-size:25px;text-align:center;background:-webkit-linear-gradient(rgb(34, 255, 244),rgb(170, 153, 0));color: black;" data-role="list-divider">部落格</li>
+            </ul>       
         </div>
-<div data-role="page" id="home">
-    <div data-role="header">
-    <h1></h1>
-    <ul data-role="listview" data-inset="true" data-divider-theme="a">
-            <li style="font-size:25px;text-align:center;background:-webkit-linear-gradient(rgb(34, 255, 244),rgb(170, 153, 0));color: black;" data-role="list-divider">部落格</li>
-        </ul>       
-</div>
-    <div role="main" class="ui-content">
-        <div class="ui-grid-b">
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p1"><img style="height:70px;margin-top:10px" src="images/Article short article.png"alt><br>文章短篇</a></div></div>
-            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p2"><img style="height:70px;margin-top:10px" src="images/article.png"alt ><br>文章</a></div></div>
-            <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p3"><img style="height:70px;margin-top:10px" src="images/favorite.png"alt><br>我的最愛</a></div></div>
+        <div role="main" class="ui-content">
+            <div class="ui-grid-b">
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p1"><img style="height:70px;margin-top:10px" src="images/Article short article.png"alt><br>文章短篇</a></div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p2"><img style="height:70px;margin-top:10px" src="images/article.png"alt ><br>文章</a></div></div>
+                <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p3"><img style="height:70px;margin-top:10px" src="images/favorite.png"alt><br>我的最愛</a></div></div>
+            </div>
+            <div class="ui-grid-b">
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p4"><img style="height:70px;margin-top:10px" src="images/food.png"alt><br>美食</a></div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p5"><img style="height:70px;margin-top:10px" src="images/view.png"alt><br>景點</a></div></div>
+                <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p6"><img style="height:70px;margin-top:10px" src="images/album.png"alt><br>相簿</a></div></div>
+            </div>
         </div>
-        <div class="ui-grid-b">
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p4"><img style="height:70px;margin-top:10px" src="images/food.png"alt><br>美食</a></div></div>
-            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p5"><img style="height:70px;margin-top:10px" src="images/view.png"alt><br>景點</a></div></div>
-            <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:130px;text-align: center"><a href="#p6"><img style="height:70px;margin-top:10px" src="images/album.png"alt><br>相簿</a></div></div>
-        </div>
-    </div>
-    <div data-role="footer">
-        <h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p1">
+        <div data-role="footer">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p1">
         <div data-role="header">
             <h1>文章短篇</h1>
             <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a>    
-</div><!-- /header -->
-
-<ul data-role="listview" data-inset="true">
-       
-        <li><a href="#p7" style="text-align:center;" >文章短篇1</a></li>
-        <li><a href="#p8" style="text-align:center;">文章短篇2</a></li>
-        <li><a href="#p9" style="text-align:center;">文章短篇3</a></li>
-        <li><a href="#p10" style="text-align:center;">文章短篇4</a></li>
-        <li><a href="#p11" style="text-align:center;">文章短篇5</a></li>
-</ul>
-<div data-role="footer" data-position="fixed">
-                <h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p7" >
-    <div data-role="header"><h1>文章短篇1</h1></div>
-    <div role="main" class="ui-content">
-
-<p> 一、看的是書，讀的卻是世界；
-        沏的是茶，嚐的卻是生活；
-        斟的是酒，品的卻是艱辛；
-
-        人生就像一張有去無回的單程車票，
-        
-        沒有彩排。
-        
-        每一場都是現場直播。
-        
-        把握好每次演出便是最好的珍惜。
-        
-        將生活中點滴的往事細細回味，
-        
-        傷心時的淚、開心時的醉，
-        
-        都是因追求而可貴。
-        
-        日落不是歲月的過，
-        
-        風起不是樹林的錯。
-        
-        只要愛過等過付出過，
-        
-        天堂裡的笑聲就不是傳說。
-</p>
-    <p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-        <h4>@NFU</h4>
-    </div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p8" >
-                <div data-role="header"><h1>文章短篇2</h1></div>
-                <div role="main" class="ui-content">
-<p>二、世界沒有悲劇和喜劇之分，
+        </div><!-- /header -->
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#p7" style="text-align:center;" >文章短篇1</a></li>
+                <li><a href="#p8" style="text-align:center;">文章短篇2</a></li>
+                <li><a href="#p9" style="text-align:center;">文章短篇3</a></li>
+                <li><a href="#p10" style="text-align:center;">文章短篇4</a></li>
+                <li><a href="#p11" style="text-align:center;">文章短篇5</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p7" >
+        <div data-role="header"><h1>文章短篇1</h1></div>
+        <div role="main" class="ui-content">
+            
+            <p> 一、看的是書，讀的卻是世界；
+                沏的是茶，嚐的卻是生活；
+                斟的是酒，品的卻是艱辛；
+                
+                人生就像一張有去無回的單程車票，
+                
+                沒有彩排。
+                
+                每一場都是現場直播。
+                
+                把握好每次演出便是最好的珍惜。
+                
+                將生活中點滴的往事細細回味，
+                
+                傷心時的淚、開心時的醉，
+                
+                都是因追求而可貴。
+                
+                日落不是歲月的過，
+                
+                風起不是樹林的錯。
+                
+                只要愛過等過付出過，
+                
+                天堂裡的笑聲就不是傳說。
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p8" >
+        <div data-role="header"><h1>文章短篇2</h1></div>
+        <div role="main" class="ui-content">
+            <p>二、世界沒有悲劇和喜劇之分，
                 如果你能從悲劇中走出來，
                 
                 那就是喜劇，
@@ -114,68 +109,415 @@
                 人生的意義不在於拿一手好牌，
                 
                 而在於打好一手壞牌。</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-     <h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p9" >
-                <div data-role="header"><h1>文章短篇3</h1></div>
-                <div role="main" class="ui-content">
-<p>三、花兒不為誰開，也可以為自己開，
-                世界不為誰存在，也可以為自己存在。
+                <p><a href="#" data-rel="back">Back</a></p>
+            </div><!-- /content -->
+            <div data-role="footer" data-position="fixed">
+                <h4>@NFU</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <div data-role="page" id="p9" >
+            <div data-role="header"><h1>文章短篇3</h1></div>
+            <div role="main" class="ui-content">
+                <p>三、花兒不為誰開，也可以為自己開，
+                    世界不為誰存在，也可以為自己存在。
+                    
+                    花未全開，月未圓。
+                    
+                    這是人間最好的境界，
+                    
+                    花一但全開，
+                    
+                    馬上就會凋謝了，
+                    
+                    月一但全圓，
+                    
+                    馬上就要缺損了。
+                    
+                    而未全開未全圓，
+                    
+                    仍使你的心有所期待，有所憧憬。
+                </p>
+                <p><a href="#" data-rel="back">Back</a></p>
+            </div><!-- /content -->
+            <div data-role="footer" data-position="fixed">
+                <h4>@NFU</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <div data-role="page" id="p10" >
+            <div data-role="header"><h1>文章短篇4</h1></div>
+            <div role="main" class="ui-content">
+                <p>四、選擇一個朋友，
+                    就是選擇一種生活方式。
+                    自己修身養性是交到好朋友的前提，
+                    
+                    等於給自己打開了最友善的世界。
+                    
+                    能夠讓自己的人生具有光彩。
+                    
+                    真正的朋友不是在一起有聊不完的話，
+                    
+                    而是即使不說一句話也不覺得尷尬。
+                </p>
+                <p><a href="#" data-rel="back">Back</a></p>
+            </div><!-- /content -->
+            <div data-role="footer" data-position="fixed">
+                <h4>@NFU</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <div data-role="page" id="p11" >
+            <div data-role="header"><h1>文章短篇5</h1></div>
+            <div role="main" class="ui-content">
+                <p>五、所謂門檻，
+                    過去了就是門，
+                    
+                    沒過去就成了檻。
+                    
+                    把事情變複雜很簡單，
+                    
+                    把事情變簡單很複雜。
+                    
+                    時間是治療心靈創傷的大師，
+                    
+                    但絕不是解決問題的高手。
+                    
+                    世界上只有想不通的人，
+                    
+                    沒有走不通的路。
+                </p>
+                <p><a href="#" data-rel="back">Back</a></p>
+            </div><!-- /content -->
+            <div data-role="footer" data-position="fixed">
+                <h4>@NFU</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        
+        <div data-role="page" id="p2">
+            <div data-role="header">
+                <h2>文章</h2>
+                <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
+            </div><!-- /header -->
+            <div role="main" class="ui-content"></div>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#p12" style="text-align:center;">文章1</a></li>
+                <li><a href="#p13" style="text-align:center;">文章2</a></li>
+                <li><a href="#p14" style="text-align:center;">文章3</a></li>
+                <li><a href="#p15" style="text-align:center;">文章4</a></li>
+                <li><a href="#p16" style="text-align:center;">文章5</a></li>
+            </ul>    
+        </div><!-- /content -->
+        <div data-role="footer">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page --> 
+    
+    <div data-role="page" id="p12" >
+        <div data-role="header"><h1>文章1</h1></div>
+        <div role="main" class="ui-content">
+            <p>1.健康不是第一， 而是唯一
+                有一天，你輝煌了，一定要有個好身體，才能享受人生。
                 
-                花未全開，月未圓。
+                有一天，你落魄了，還得有個好身體，才能東山再起。
                 
-                這是人間最好的境界，
+                健康不是第一， 而是唯一！
                 
-                花一但全開，
+                這也貴，那也貴，照照鏡子其實你自己最貴。
                 
-                馬上就會凋謝了，
+                當你倒在病床上的時候，有多少人能關注你？
                 
-                月一但全圓，
+                有多少錢才能將你扶起？
                 
-                馬上就要缺損了。
+                所以，儲存健康是最明智的選擇！
                 
-                而未全開未全圓，
+                人生只有單程，沒有往返！
                 
-                仍使你的心有所期待，有所憧憬。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-     <h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p10" >
-                <div data-role="header"><h1>文章短篇4</h1></div>
-                <div role="main" class="ui-content">
-<p>四、選擇一個朋友，
-                就是選擇一種生活方式。
-                自己修身養性是交到好朋友的前提，
+                讓自己健康是美德，讓家人健康是責任！
                 
-                等於給自己打開了最友善的世界。
+                人生，在眼淚中微笑才多姿。
                 
-                能夠讓自己的人生具有光彩。
+                生命，在堅強中微笑才精彩。
                 
-                真正的朋友不是在一起有聊不完的話，
+                歲月，在無憾中微笑才美麗。
                 
-                而是即使不說一句話也不覺得尷尬。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-     <h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p11" >
-                <div data-role="header"><h1>文章短篇5</h1></div>
-                <div role="main" class="ui-content">
-<p>五、所謂門檻，
+                人生下半場，拼的就是健康！
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p13" >
+        <div data-role="header"><h1>文章2</h1></div>
+        <div role="main" class="ui-content">
+            <p>2.不要輕易去否定
+                在新加坡的一所小學裡，老師在地上，撿起了一位學生丟在地上的草紙。
+                
+                發現上面是這個學生的亂寫亂畫，和一串她根本看不懂的公式：
+                
+                1+1=1
+                
+                2+1=1
+                
+                3+4=1
+                
+                5+7=1
+                
+                6+18=1
+                
+                這根本不符合數學邏輯的計算公式，引起了老師的好奇。
+                
+                老師就把這個交給了校長。
+                
+                校長看過之後很重視，並和老師商量，如何鼓勵這個孩子，並搞懂這個公式的意思。
+                
+                他們把這個學生叫來，說：「你特別棒，看到你畫了這麼好的畫，怎麼輕易就把它丟掉了？你應該每次畫的，都交給老師，老師幫你把你的作品收藏起來。看看你將來到底能畫出多少漂亮的作品。」
+                
+                於是這個學生就特別地高興。
+                
+                校長又問他：「另外我們在你的草紙上看到你寫的計算公式，哎呀這個難住我們了。這道題對我們來說太難了。我們都無法知道這個數字的意義。你能不能幫我們揭開謎底？特別感謝你，你能把你的答案和我們分享一下嗎？」
+                
+                於是這個孩子就非常爽快，開心地公布了答案。
+                
+                1里+1里=1公里
+                
+                2個月+1個月=1個季度
+                
+                3天+4天=1周
+                
+                5個月+7個月=1年
+                
+                6小時+18小時=1天。
+                
+                老師和校長為這位學生由衷地響起了掌聲。
+                
+                老師和校長沒有輕易的去否定一個孩子，從而沒有抹殺孩子不為人知的正確。
+                
+                現在看來，在孩子的成長世界裡，潛藏著很多我們成人無法讀懂的正確，那超乎尋常的潛能被所謂的稚氣和天真掩藏著，等待著我們去為他們開啟和挖掘，那便是一個孩子與眾不同的未來。
+                
+                在智慧和知識的海洋里，和孩子比起來，我們也尚存太多的無知，不要因為我們的無知抹殺未來的天才。
+                
+                我們始終要記住一點：
+                
+                對於一個人的一生來說，我們只能把自己看做是生命成長的啟蒙者和引領成長的使者。
+                
+                在未知的世界，我們的知識和能力都是有限的，我們只是幫他們開啟了大門，我們永遠無法知道我們的孩子未來是否會超過我們。
+                
+                我們不能用我們有限的能力去限制孩子，那是對孩子的抹殺，教育的目的是引領和開啟，而絕非限制和關閉，教育是不斷地承認我們的不足，而非對學生進行一味地否定。
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p14" >
+        <div data-role="header"><h1>文章3</h1></div>
+        <div role="main" class="ui-content">
+            <p>3.成熟就是「更加的能夠忍受痛苦」
+                你要習慣任何人的忽冷忽熱，也要看淡任何人的漸行漸遠，所謂的成熟就是「更加的能夠忍受痛苦」。
+                
+                清醒時做事，糊塗時讀書，大怒時睡覺，獨處時思考，做一個幸福的人，面朝大海春暖花開。
+                
+                努力的意義就是：以後的日子裡，放眼望去全部都是自己喜歡的人和事，永遠都要活給自己看，而且要笑的燦爛，別在乎別人的指指點點，做好你自己，讓看不起你的人高攀不起，讓看的起你的人更喜歡你。
+                
+                凡事學會順其自然不違心、不刻意、不必太在乎，放開執念，隨緣是最好的生活。
+                
+                年輕的時候，我們總在開始的時候，可以毫無畏懼，在結束的時候痛徹心扉。
+                
+                長大後，成熟的我們，避免了幼稚的傷害，卻錯過了最初的勇氣。
+                
+                年少總是赤誠天真，顯得時光如此殘忍，我們終究長成了滿身疲憊的大人。
+                
+                你的怒力可能別人看不到，但是只要你失敗別人一眼就會看到，這就是現實。
+                
+                人生的經歷就像鉛筆一樣，剛開始很尖，經歷的多了也就變的圓滑了，如果承受不了，就會折斷。
+                
+                這個世界已經有很多人和事讓你失望了，而最不應該的自己還令自己失望。
+                
+                一定要記住，社會很殘酷，你要活的有溫度。
+                
+                我們這一生要經歷那麼多事情，認識結交那麼多人，那肯定很豐富很充實囉？
+                
+                不會那麼多的，心靈就像一個篩子，在世事顛沛流離中，慢慢的一些人就漏掉了。
+                
+                一天當中，我們起碼應該擠出十分鐘的寧靜，讓自己有喘一口氣的閒睱，有一個可以讓陽光照進來的間隙，說你吶累了就放鬆一下吧。
+                
+                你受過傷嗎？沒關係！傷害可以讓你成長，時間可以讓你堅強，不要攻擊、不要詆毀，人生活處不相逢，時間會給你最美的答案。
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p15" >
+        <div data-role="header"><h1>文章4</h1></div>
+        <div role="main" class="ui-content">
+            <p>4.命運不是求來的，是自己修來的
+                當你遇到挫折的時後，有人幫你，是你的幸運，無人幫你，是你的命運，沒有人該為你做什麼。
+                
+                生命是你自己的，你得為自己負責，晚起就會遲到，不讀書就會考不好。
+                
+                我們該多要求自己一點，才有能力去幫助別人。
+                
+                生命就像一粒種子，最終會長成一株大樹。
+                
+                有善心，有善行，自然有善果。
+                
+                人生的命運不是求來的，是自己修來的，真心向善，上善若水，以善修心，天地自保。
+                
+                以善修心，以善造心，以善治心，人就會快樂和幸福。
+                
+                一切造作皆源乎心，只要我們有善心，有善行，必然有善果。
+                
+                善良沒有敵人智慧不起煩惱。
+                
+                多一點慈悲心，多一點智慧。
+                
+                凡所有相，皆是虛妄，若見諸相非相，則見如來。
+                
+                日日是好日，秒秒心安祥，悠然，隨心，隨性，隨緣，從容自在，快樂無憂。
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p16" >
+        <div data-role="header"><h1>文章5</h1></div>
+        <div role="main" class="ui-content">
+            <p>5.彎下腰只為換一個可以昂起頭的機會
+                他是一家上市公司的老總。
+                
+                很久沒有坐過公車了，有一天，他想體驗一下平民的生活。
+                
+                他投了幣，在一個靠窗邊的座位坐下來。好奇地打量着周遭的人，他前面坐著懷孕的婦女，身後是個老人，這些人每天擠着公車，但依然很快樂。
+                
+                他對面有一個美女，他可以盡情地欣賞。
+                
+                到了下一站，上來的人多了，美女被人遮住了。看不到，就閉上了眼睛，回味着那女人的曼妙風情。
+                
+                忽然，有個尖利的聲音：「你就不能給讓個座啊？一個大男人一點都不紳士！」
+                
+                他睜開眼，看到一個婦女抱着一個嬰兒，站在他前面。
+                
+                而那個發出尖利聲音的女人繼續對着發愣的他吼道：「瞅什麼瞅，說你呢！」
+                
+                全車的人都朝他這裏望過來，他的臉刷的一下紅透了。趕緊站了起來，把座位讓給了那個抱孩子的婦女。
+                
+                下一站，他下了車，萬萬沒有想到自己會出這麼大的醜，下車前，他再看了一眼那個牙尖嘴利的醜女孩。
+                
+                公司要招聘，在面試的時候，他親自進行把關。
+                
+                他見到了一個面熟的人—那個讓他出醜的女孩。終於有報復的機會了。
+                
+                女孩也認出了他，神情頓時緊張起來，額頭上沁出了汗水。
+                
+                「你把我們每個人的皮鞋都擦一遍，你就可以被錄用了。」他對她說。
+                
+                她站在那裏，猶豫了一會，家裏的經濟已經告急，太需要這份工作了。
+                
+                儘管自己有高學歷，也有能力，但因爲長得醜，被很多公司拒之門外。只要她放下自尊，爲他們擦一次皮鞋，就有機會獲得這份工作。
+                
+                他斷定這女孩是不會屈尊的，沒想到她竟然同意了。
+                
+                她找來鞋刷子，蹲下來，逐一替這幾位考官們擦鞋。
+                
+                最後到他了，他還故意翹起二郎腿。忽然，他覺得自己有些過分了，女孩在車上雖然刺傷了他，但卻是爲了做好事。
+                
+                他向部屬要來檔案，她的筆試成績第一，遙遙領先於其他人。從各方面來看，這女孩都是出色的。
+                
+                再說，自己也總不能食言吧。於是，他當衆宣佈，她被錄用了。她並沒有顯得過於興奮，只是微微地向衆考官們道了聲謝謝。
+                
+                然後一字一頓地對他說：「算上您，我一共擦了5雙鞋子，每雙20元，請您付給我100元。」
+                他無論如何也沒有想到女孩會這樣說，只好給了她100元。
+                
+                女孩拿着100元，走到公司門口一個撿垃圾的老人身邊，把100元送給了老人。
+                
+                從此，他對這個女孩刮目相看。
+                
+                女孩在日後的工作中，表現非常出色，完成了多項艱鉅的任務。
+                
+                有一天，他忍不住問她：「當初我那樣難爲你，你心裏有沒有怨念？」
+                
+                女孩卻答非所問：「我彎下腰，只爲了換一個可以昂起頭的機會。」
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    
+    <div data-role="page" id="p3">
+        <div data-role="header">
+            <h3>我的最愛</h3>
+            <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
+        </div><!-- /header -->
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#p17" style="text-align:center;">我的最愛1</a></li>
+                <li><a href="#p18" style="text-align:center;">我的最愛2</a></li>
+                <li><a href="#p19" style="text-align:center;">我的最愛3</a></li>
+                <li><a href="#p20" style="text-align:center;">我的最愛4</a></li>
+                <li><a href="#p21" style="text-align:center;">我的最愛5</a></li>
+            </ul>    
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p17" >
+        <div data-role="header"><h1>我的最愛1</h1></div>
+        <div role="main" class="ui-content">
+            <p>一、看的是書，讀的卻是世界；
+                沏的是茶，嚐的卻是生活；
+                斟的是酒，品的卻是艱辛；
+                
+                人生就像一張有去無回的單程車票，
+                
+                沒有彩排。
+                
+                每一場都是現場直播。
+                
+                把握好每次演出便是最好的珍惜。
+                
+                將生活中點滴的往事細細回味，
+                
+                傷心時的淚、開心時的醉，
+                
+                都是因追求而可貴。
+                
+                日落不是歲月的過，
+                
+                風起不是樹林的錯。
+                
+                只要愛過等過付出過，
+                
+                天堂裡的笑聲就不是傳說。
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p18" >
+        <div data-role="header"><h1>我的最愛2</h1></div>
+        <div role="main" class="ui-content">
+            <p>五、所謂門檻，
                 過去了就是門，
                 
                 沒過去就成了檻。
@@ -191,671 +533,324 @@
                 世界上只有想不通的人，
                 
                 沒有走不通的路。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-     <h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-
-<div data-role="page" id="p2">
-     <div data-role="header">
-        <h2>文章</h2>
-        <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
-</div><!-- /header -->
-
-<ul data-role="listview" data-inset="true">
-        <li><a href="#p12" style="text-align:center;">文章1</a></li>
-        <li><a href="#p13" style="text-align:center;">文章2</a></li>
-        <li><a href="#p14" style="text-align:center;">文章3</a></li>
-        <li><a href="#p15" style="text-align:center;">文章4</a></li>
-        <li><a href="#p16" style="text-align:center;">文章5</a></li>
-</ul>    
-</div><!-- /content -->
-<div data-role="footer">
-        <h4>@NFU</h4>
-    </div><!-- /footer -->
-</div><!-- /page --> 
-
-<div data-role="page" id="p12" >
-    <div data-role="header"><h1>文章1</h1></div>
-    <div role="main" class="ui-content">
-<p>1.健康不是第一， 而是唯一
-    有一天，你輝煌了，一定要有個好身體，才能享受人生。
-    
-    有一天，你落魄了，還得有個好身體，才能東山再起。
-    
-    健康不是第一， 而是唯一！
-    
-    這也貴，那也貴，照照鏡子其實你自己最貴。
-    
-    當你倒在病床上的時候，有多少人能關注你？
-    
-    有多少錢才能將你扶起？
-    
-    所以，儲存健康是最明智的選擇！
-    
-    人生只有單程，沒有往返！
-    
-    讓自己健康是美德，讓家人健康是責任！
-    
-    人生，在眼淚中微笑才多姿。
-    
-    生命，在堅強中微笑才精彩。
-    
-    歲月，在無憾中微笑才美麗。
-    
-    人生下半場，拼的就是健康！
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p13" >
-    <div data-role="header"><h1>文章2</h1></div>
-    <div role="main" class="ui-content">
-<p>2.不要輕易去否定
-    在新加坡的一所小學裡，老師在地上，撿起了一位學生丟在地上的草紙。
-    
-    發現上面是這個學生的亂寫亂畫，和一串她根本看不懂的公式：
-    
-    1+1=1
-    
-    2+1=1
-    
-    3+4=1
-    
-    5+7=1
-    
-    6+18=1
-    
-    這根本不符合數學邏輯的計算公式，引起了老師的好奇。
-    
-    老師就把這個交給了校長。
-    
-    校長看過之後很重視，並和老師商量，如何鼓勵這個孩子，並搞懂這個公式的意思。
-    
-    他們把這個學生叫來，說：「你特別棒，看到你畫了這麼好的畫，怎麼輕易就把它丟掉了？你應該每次畫的，都交給老師，老師幫你把你的作品收藏起來。看看你將來到底能畫出多少漂亮的作品。」
-    
-    於是這個學生就特別地高興。
-    
-    校長又問他：「另外我們在你的草紙上看到你寫的計算公式，哎呀這個難住我們了。這道題對我們來說太難了。我們都無法知道這個數字的意義。你能不能幫我們揭開謎底？特別感謝你，你能把你的答案和我們分享一下嗎？」
-    
-    於是這個孩子就非常爽快，開心地公布了答案。
-    
-    1里+1里=1公里
-    
-    2個月+1個月=1個季度
-    
-    3天+4天=1周
-    
-    5個月+7個月=1年
-    
-    6小時+18小時=1天。
-    
-    老師和校長為這位學生由衷地響起了掌聲。
-    
-    老師和校長沒有輕易的去否定一個孩子，從而沒有抹殺孩子不為人知的正確。
-    
-    現在看來，在孩子的成長世界裡，潛藏著很多我們成人無法讀懂的正確，那超乎尋常的潛能被所謂的稚氣和天真掩藏著，等待著我們去為他們開啟和挖掘，那便是一個孩子與眾不同的未來。
-    
-    在智慧和知識的海洋里，和孩子比起來，我們也尚存太多的無知，不要因為我們的無知抹殺未來的天才。
-    
-    我們始終要記住一點：
-    
-    對於一個人的一生來說，我們只能把自己看做是生命成長的啟蒙者和引領成長的使者。
-    
-    在未知的世界，我們的知識和能力都是有限的，我們只是幫他們開啟了大門，我們永遠無法知道我們的孩子未來是否會超過我們。
-    
-    我們不能用我們有限的能力去限制孩子，那是對孩子的抹殺，教育的目的是引領和開啟，而絕非限制和關閉，教育是不斷地承認我們的不足，而非對學生進行一味地否定。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p14" >
-    <div data-role="header"><h1>文章3</h1></div>
-    <div role="main" class="ui-content">
-<p>3.成熟就是「更加的能夠忍受痛苦」
-    你要習慣任何人的忽冷忽熱，也要看淡任何人的漸行漸遠，所謂的成熟就是「更加的能夠忍受痛苦」。
-    
-    清醒時做事，糊塗時讀書，大怒時睡覺，獨處時思考，做一個幸福的人，面朝大海春暖花開。
-    
-    努力的意義就是：以後的日子裡，放眼望去全部都是自己喜歡的人和事，永遠都要活給自己看，而且要笑的燦爛，別在乎別人的指指點點，做好你自己，讓看不起你的人高攀不起，讓看的起你的人更喜歡你。
-    
-    凡事學會順其自然不違心、不刻意、不必太在乎，放開執念，隨緣是最好的生活。
-    
-    年輕的時候，我們總在開始的時候，可以毫無畏懼，在結束的時候痛徹心扉。
-    
-    長大後，成熟的我們，避免了幼稚的傷害，卻錯過了最初的勇氣。
-    
-    年少總是赤誠天真，顯得時光如此殘忍，我們終究長成了滿身疲憊的大人。
-    
-    你的怒力可能別人看不到，但是只要你失敗別人一眼就會看到，這就是現實。
-    
-    人生的經歷就像鉛筆一樣，剛開始很尖，經歷的多了也就變的圓滑了，如果承受不了，就會折斷。
-    
-    這個世界已經有很多人和事讓你失望了，而最不應該的自己還令自己失望。
-    
-    一定要記住，社會很殘酷，你要活的有溫度。
-    
-    我們這一生要經歷那麼多事情，認識結交那麼多人，那肯定很豐富很充實囉？
-    
-    不會那麼多的，心靈就像一個篩子，在世事顛沛流離中，慢慢的一些人就漏掉了。
-    
-    一天當中，我們起碼應該擠出十分鐘的寧靜，讓自己有喘一口氣的閒睱，有一個可以讓陽光照進來的間隙，說你吶累了就放鬆一下吧。
-    
-    你受過傷嗎？沒關係！傷害可以讓你成長，時間可以讓你堅強，不要攻擊、不要詆毀，人生活處不相逢，時間會給你最美的答案。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p15" >
-    <div data-role="header"><h1>文章4</h1></div>
-    <div role="main" class="ui-content">
-<p>4.命運不是求來的，是自己修來的
-    當你遇到挫折的時後，有人幫你，是你的幸運，無人幫你，是你的命運，沒有人該為你做什麼。
-    
-    生命是你自己的，你得為自己負責，晚起就會遲到，不讀書就會考不好。
-    
-    我們該多要求自己一點，才有能力去幫助別人。
-    
-    生命就像一粒種子，最終會長成一株大樹。
-    
-    有善心，有善行，自然有善果。
-    
-    人生的命運不是求來的，是自己修來的，真心向善，上善若水，以善修心，天地自保。
-    
-    以善修心，以善造心，以善治心，人就會快樂和幸福。
-    
-    一切造作皆源乎心，只要我們有善心，有善行，必然有善果。
-    
-    善良沒有敵人智慧不起煩惱。
-    
-    多一點慈悲心，多一點智慧。
-    
-    凡所有相，皆是虛妄，若見諸相非相，則見如來。
-    
-    日日是好日，秒秒心安祥，悠然，隨心，隨性，隨緣，從容自在，快樂無憂。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p16" >
-    <div data-role="header"><h1>文章5</h1></div>
-    <div role="main" class="ui-content">
-<p>5.彎下腰只為換一個可以昂起頭的機會
-    他是一家上市公司的老總。
-    
-    很久沒有坐過公車了，有一天，他想體驗一下平民的生活。
-    
-    他投了幣，在一個靠窗邊的座位坐下來。好奇地打量着周遭的人，他前面坐著懷孕的婦女，身後是個老人，這些人每天擠着公車，但依然很快樂。
-    
-    他對面有一個美女，他可以盡情地欣賞。
-    
-    到了下一站，上來的人多了，美女被人遮住了。看不到，就閉上了眼睛，回味着那女人的曼妙風情。
-    
-    忽然，有個尖利的聲音：「你就不能給讓個座啊？一個大男人一點都不紳士！」
-    
-    他睜開眼，看到一個婦女抱着一個嬰兒，站在他前面。
-    
-    而那個發出尖利聲音的女人繼續對着發愣的他吼道：「瞅什麼瞅，說你呢！」
-    
-    全車的人都朝他這裏望過來，他的臉刷的一下紅透了。趕緊站了起來，把座位讓給了那個抱孩子的婦女。
-    
-    下一站，他下了車，萬萬沒有想到自己會出這麼大的醜，下車前，他再看了一眼那個牙尖嘴利的醜女孩。
-    
-    公司要招聘，在面試的時候，他親自進行把關。
-    
-    他見到了一個面熟的人—那個讓他出醜的女孩。終於有報復的機會了。
-    
-    女孩也認出了他，神情頓時緊張起來，額頭上沁出了汗水。
-    
-    「你把我們每個人的皮鞋都擦一遍，你就可以被錄用了。」他對她說。
-    
-    她站在那裏，猶豫了一會，家裏的經濟已經告急，太需要這份工作了。
-    
-    儘管自己有高學歷，也有能力，但因爲長得醜，被很多公司拒之門外。只要她放下自尊，爲他們擦一次皮鞋，就有機會獲得這份工作。
-    
-    他斷定這女孩是不會屈尊的，沒想到她竟然同意了。
-    
-    她找來鞋刷子，蹲下來，逐一替這幾位考官們擦鞋。
-    
-    最後到他了，他還故意翹起二郎腿。忽然，他覺得自己有些過分了，女孩在車上雖然刺傷了他，但卻是爲了做好事。
-    
-    他向部屬要來檔案，她的筆試成績第一，遙遙領先於其他人。從各方面來看，這女孩都是出色的。
-    
-    再說，自己也總不能食言吧。於是，他當衆宣佈，她被錄用了。她並沒有顯得過於興奮，只是微微地向衆考官們道了聲謝謝。
-    
-    然後一字一頓地對他說：「算上您，我一共擦了5雙鞋子，每雙20元，請您付給我100元。」
-    他無論如何也沒有想到女孩會這樣說，只好給了她100元。
-    
-    女孩拿着100元，走到公司門口一個撿垃圾的老人身邊，把100元送給了老人。
-    
-    從此，他對這個女孩刮目相看。
-    
-    女孩在日後的工作中，表現非常出色，完成了多項艱鉅的任務。
-    
-    有一天，他忍不住問她：「當初我那樣難爲你，你心裏有沒有怨念？」
-    
-    女孩卻答非所問：「我彎下腰，只爲了換一個可以昂起頭的機會。」
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-   
-<div data-role="page" id="p3">
-        <div data-role="header">
-           <h3>我的最愛</h3>
-           <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
-</div><!-- /header -->
-   
-   <ul data-role="listview" data-inset="true">
-           <li><a href="#p17" style="text-align:center;">我的最愛1</a></li>
-           <li><a href="#p18" style="text-align:center;">我的最愛2</a></li>
-           <li><a href="#p19" style="text-align:center;">我的最愛3</a></li>
-           <li><a href="#p20" style="text-align:center;">我的最愛4</a></li>
-           <li><a href="#p21" style="text-align:center;">我的最愛5</a></li>
-   </ul>    
-   </div><!-- /content -->
-   <div data-role="footer" data-position="fixed">
-           <h4>@NFU</h4>
-       </div><!-- /footer -->
-   </div><!-- /page -->
-   
-   <div data-role="page" id="p17" >
-    <div data-role="header"><h1>我的最愛1</h1></div>
-    <div role="main" class="ui-content">
-<p>一、看的是書，讀的卻是世界；
-    沏的是茶，嚐的卻是生活；
-    斟的是酒，品的卻是艱辛；
-
-    人生就像一張有去無回的單程車票，
-    
-    沒有彩排。
-    
-    每一場都是現場直播。
-    
-    把握好每次演出便是最好的珍惜。
-    
-    將生活中點滴的往事細細回味，
-    
-    傷心時的淚、開心時的醉，
-    
-    都是因追求而可貴。
-    
-    日落不是歲月的過，
-    
-    風起不是樹林的錯。
-    
-    只要愛過等過付出過，
-    
-    天堂裡的笑聲就不是傳說。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p18" >
-    <div data-role="header"><h1>我的最愛2</h1></div>
-    <div role="main" class="ui-content">
-<p>五、所謂門檻，
-        過去了就是門，
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p19" >
+        <div data-role="header"><h1>我的最愛3</h1></div>
+        <div role="main" class="ui-content">
+            <p>1.健康不是第一， 而是唯一
+                有一天，你輝煌了，一定要有個好身體，才能享受人生。
+                
+                有一天，你落魄了，還得有個好身體，才能東山再起。
+                
+                健康不是第一， 而是唯一！
+                
+                這也貴，那也貴，照照鏡子其實你自己最貴。
+                
+                當你倒在病床上的時候，有多少人能關注你？
+                
+                有多少錢才能將你扶起？
+                
+                所以，儲存健康是最明智的選擇！
+                
+                人生只有單程，沒有往返！
+                
+                讓自己健康是美德，讓家人健康是責任！
+                
+                人生，在眼淚中微笑才多姿。
+                
+                生命，在堅強中微笑才精彩。
+                
+                歲月，在無憾中微笑才美麗。
+                
+                人生下半場，拼的就是健康！
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p20" >
+        <div data-role="header"><h1>我的最愛4</h1></div>
+        <div role="main" class="ui-content">
+            <p>二、世界沒有悲劇和喜劇之分，
+                如果你能從悲劇中走出來，
+                
+                那就是喜劇，
+                
+                如果你沉浸於喜劇之中，
+                
+                那它就是悲劇。
+                
+                如果你只是等待，
+                
+                發生的事情只會是你變老了。
+                
+                人生的意義不在於拿一手好牌，
+                
+                而在於打好一手壞牌。
+            </p>
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p21" >
+        <div data-role="header"><h1>我的最愛5</h1></div>
+        <div role="main" class="ui-content">
+            <p>             <div role="main" class="ui-content">
+                <p>四、選擇一個朋友，
+                    就是選擇一種生活方式。
+                    自己修身養性是交到好朋友的前提，
+                    
+                    等於給自己打開了最友善的世界。
+                    
+                    能夠讓自己的人生具有光彩。
+                    
+                    真正的朋友不是在一起有聊不完的話，
+                    
+                    而是即使不說一句話也不覺得尷尬。
+                </p>
+                <p><a href="#" data-rel="back">Back</a></p>
+            </div><!-- /content -->
+            <div data-role="footer" data-position="fixed">
+                <h4>@NFU</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
         
-        沒過去就成了檻。
         
-        把事情變複雜很簡單，
-        
-        把事情變簡單很複雜。
-        
-        時間是治療心靈創傷的大師，
-        
-        但絕不是解決問題的高手。
-        
-        世界上只有想不通的人，
-        
-        沒有走不通的路。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p19" >
-    <div data-role="header"><h1>我的最愛3</h1></div>
-    <div role="main" class="ui-content">
-<p>1.健康不是第一， 而是唯一
-        有一天，你輝煌了，一定要有個好身體，才能享受人生。
-        
-        有一天，你落魄了，還得有個好身體，才能東山再起。
-        
-        健康不是第一， 而是唯一！
-        
-        這也貴，那也貴，照照鏡子其實你自己最貴。
-        
-        當你倒在病床上的時候，有多少人能關注你？
-        
-        有多少錢才能將你扶起？
-        
-        所以，儲存健康是最明智的選擇！
-        
-        人生只有單程，沒有往返！
-        
-        讓自己健康是美德，讓家人健康是責任！
-        
-        人生，在眼淚中微笑才多姿。
-        
-        生命，在堅強中微笑才精彩。
-        
-        歲月，在無憾中微笑才美麗。
-        
-        人生下半場，拼的就是健康！
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p20" >
-    <div data-role="header"><h1>我的最愛4</h1></div>
-    <div role="main" class="ui-content">
-<p>二、世界沒有悲劇和喜劇之分，
-        如果你能從悲劇中走出來，
-        
-        那就是喜劇，
-        
-        如果你沉浸於喜劇之中，
-        
-        那它就是悲劇。
-        
-        如果你只是等待，
-        
-        發生的事情只會是你變老了。
-        
-        人生的意義不在於拿一手好牌，
-        
-        而在於打好一手壞牌。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
-<div data-role="page" id="p21" >
-    <div data-role="header"><h1>我的最愛5</h1></div>
-    <div role="main" class="ui-content">
-<p>             <div role="main" class="ui-content">
-        <p>四、選擇一個朋友，
-                        就是選擇一種生活方式。
-                        自己修身養性是交到好朋友的前提，
-                        
-                        等於給自己打開了最友善的世界。
-                        
-                        能夠讓自己的人生具有光彩。
-                        
-                        真正的朋友不是在一起有聊不完的話，
-                        
-                        而是即使不說一句話也不覺得尷尬。
-</p>
-<p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
-</div><!-- /page -->
-
- 
-<div data-role="page" id="p4">
-        <div data-role="header">
-           <h4>美食</h4>
-           <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
-   </div><!-- /header -->
-   
-   <ul data-role="listview" data-inset="true">
-           <li><a href="#p22" style="text-align:center;">美食1</a></li>
-           <li><a href="#p23" style="text-align:center;">美食2</a></li>
-           <li><a href="#p24" style="text-align:center;">美食3</a></li>
-           <li><a href="#p25" style="text-align:center;">美食4</a></li>
-           <li><a href="#p26" style="text-align:center;">美食5</a></li>
-   </ul>    
-   </div><!-- /content -->
-   <div data-role="footer" data-position="fixed">
-           <h4>@NFU</h4>
-       </div><!-- /footer -->
-       </div><!-- /page -->
-       
+        <div data-role="page" id="p4">
+            <div data-role="header">
+                <h4>美食</h4>
+                <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
+            </div><!-- /header -->
+            
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#p22" style="text-align:center;">美食1</a></li>
+                <li><a href="#p23" style="text-align:center;">美食2</a></li>
+                <li><a href="#p24" style="text-align:center;">美食3</a></li>
+                <li><a href="#p25" style="text-align:center;">美食4</a></li>
+                <li><a href="#p26" style="text-align:center;">美食5</a></li>
+            </ul>    
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
     <div data-role="page" id="p22" >
         <div data-role="header"><h1>美食1</h1></div>
         <div role="main" class="ui-content">
-    <p>御鼎鍋燒麵 好吃!吃宵夜常吃這家。</p>
-    <img src="images/surface.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
-    </div><!-- /content -->
-    <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
-    </div><!-- /footer -->
+            <p>御鼎鍋燒麵 好吃!吃宵夜常吃這家。</p>
+            <img src="images/surface.jpg" alt="">
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
     </div><!-- /page -->
-
+    
     <div data-role="page" id="p23" >
         <div data-role="header"><h1>美食2</h1></div>
         <div role="main" class="ui-content">
-    <p>老席牛肉麵 湯頭香~很補的味道。</p>
-    <img src="images/beef noodles.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
-    </div><!-- /content -->
-    <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
-    </div><!-- /footer -->
+            <p>老席牛肉麵 湯頭香~很補的味道。</p>
+            <img src="images/beef noodles.jpg" alt="">
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
     </div><!-- /page -->
-
+    
     <div data-role="page" id="p24" >
         <div data-role="header"><h1>美食3</h1></div>
         <div role="main" class="ui-content">
-    <p>唐山肉圓碗粿 肉圓的醬料很香。</p>
-    <img src="images/Meatball.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
-    </div><!-- /content -->
-    <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
-    </div><!-- /footer -->
+            <p>唐山肉圓碗粿 肉圓的醬料很香。</p>
+            <img src="images/Meatball.jpg" alt="">
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
     </div><!-- /page -->
-
+    
     <div data-role="page" id="p25" >
         <div data-role="header"><h1>美食4</h1></div>
         <div role="main" class="ui-content">
-    <p>深海深土魠魚羹 土魠魚的肉較少 但是炸豆腐很好吃。</p>
-    <img src="images/Fishing rod.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
-    </div><!-- /content -->
-    <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
-    </div><!-- /footer -->
+            <p>深海深土魠魚羹 土魠魚的肉較少 但是炸豆腐很好吃。</p>
+            <img src="images/Fishing rod.jpg" alt="">
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
     </div><!-- /page -->
-
+    
     <div data-role="page" id="p26" >
         <div data-role="header"><h1>美食5</h1></div>
         <div role="main" class="ui-content">
-    <p>阿展米糕 肉醬夠味 吃起來有糯米的米香。</p>
-    <img src="images/Rice cake.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
-    </div><!-- /content -->
-    <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
-    </div><!-- /footer -->
+            <p>阿展米糕 肉醬夠味 吃起來有糯米的米香。</p>
+            <img src="images/Rice cake.jpg" alt="">
+            <p><a href="#" data-rel="back">Back</a></p>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed">
+            <h4>@NFU</h4>
+        </div><!-- /footer -->
     </div><!-- /page -->
-
-       
-      
-<div data-role="page" id="p5">
+    
+    
+    
+    <div data-role="page" id="p5">
         <div data-role="header">
-           <h5>景點</h5>
-           <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
-</div><!-- /header -->
-   
-   <ul data-role="listview" data-inset="true">
-           <li><a href="#p27" style="text-align:center;">景點1</a></li>
-           <li><a href="#p28" style="text-align:center;">景點2</a></li>
-           <li><a href="#p29" style="text-align:center;">景點3</a></li>
-           <li><a href="#p30" style="text-align:center;">景點4</a></li>
-           <li><a href="#p31" style="text-align:center;">景點5</a></li>
-   </ul>    
-   </div><!-- /content -->
-   <div data-role="footer" data-position="fixed">
-           <h4>@NFU</h4>
-    </div><!-- /footer -->
-   </div><!-- /page -->
-
-   <div data-role="page" id="p27" >
-        <div data-role="header"><h1>景點1</h1></div>
-        <div role="main" class="ui-content">
-    <img src="images/view1.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
+            <h5>景點</h5>
+            <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
+        </div><!-- /header -->
+        
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#p27" style="text-align:center;">景點1</a></li>
+            <li><a href="#p28" style="text-align:center;">景點2</a></li>
+            <li><a href="#p29" style="text-align:center;">景點3</a></li>
+            <li><a href="#p30" style="text-align:center;">景點4</a></li>
+            <li><a href="#p31" style="text-align:center;">景點5</a></li>
+        </ul>    
     </div><!-- /content -->
     <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
+        <h4>@NFU</h4>
     </div><!-- /footer -->
-    </div><!-- /page -->
+</div><!-- /page -->
 
-    <div data-role="page" id="p28" >
-            <div data-role="header"><h1>景點2</h1></div>
-            <div role="main" class="ui-content">
-    <img src="images/view2.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
+<div data-role="page" id="p27" >
+    <div data-role="header"><h1>景點1</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/view1.jpg" alt="">
+        <p><a href="#" data-rel="back">Back</a></p>
     </div><!-- /content -->
     <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
+        <h4>@NFU</h4>
     </div><!-- /footer -->
-    </div><!-- /page -->
+</div><!-- /page -->
 
-    <div data-role="page" id="p29" >
-            <div data-role="header"><h1>景點3</h1></div>
-            <div role="main" class="ui-content">
-    <img src="images/view3.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
+<div data-role="page" id="p28" >
+    <div data-role="header"><h1>景點2</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/view2.jpg" alt="">
+        <p><a href="#" data-rel="back">Back</a></p>
     </div><!-- /content -->
     <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
+        <h4>@NFU</h4>
     </div><!-- /footer -->
-    </div><!-- /page -->
+</div><!-- /page -->
 
-     <div data-role="page" id="p30" >
-                <div data-role="header"><h1>景點4</h1></div>
-                <div role="main" class="ui-content">
-    <img src="images/view4.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
+<div data-role="page" id="p29" >
+    <div data-role="header"><h1>景點3</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/view3.jpg" alt="">
+        <p><a href="#" data-rel="back">Back</a></p>
     </div><!-- /content -->
     <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
+        <h4>@NFU</h4>
     </div><!-- /footer -->
-    </div><!-- /page -->
+</div><!-- /page -->
 
-    <div data-role="page" id="p31" >
-                    <div data-role="header"><h1>景點5</h1></div>
-                    <div role="main" class="ui-content">
-    <img src="images/view5.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
+<div data-role="page" id="p30" >
+    <div data-role="header"><h1>景點4</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/view4.jpg" alt="">
+        <p><a href="#" data-rel="back">Back</a></p>
     </div><!-- /content -->
     <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
+        <h4>@NFU</h4>
     </div><!-- /footer -->
-    </div><!-- /page -->    
-   
-   
+</div><!-- /page -->
+
+<div data-role="page" id="p31" >
+    <div data-role="header"><h1>景點5</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/view5.jpg" alt="">
+        <p><a href="#" data-rel="back">Back</a></p>
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed">
+        <h4>@NFU</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->    
+
+
 <div data-role="page" id="p6">
-        <div data-role="header">
-           <h6>相簿</h6>
-           <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
-</div><!-- /header -->
-   
-   <ul data-role="listview" data-inset="true">
-           <li><a href="#p32" style="text-align:center;">相簿1</a></li>
-           <li><a href="#p33" style="text-align:center;">相簿2</a></li>
-           <li><a href="#p34" style="text-align:center;">相簿3</a></li>
-           <li><a href="#p35" style="text-align:center;">相簿4</a></li>
-           <li><a href="#p36" style="text-align:center;">相簿5</a></li>
+    <div data-role="header">
+        <h6>相簿</h6>
+        <a href="#" data-rel="back" class="ui-bun-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Back</a> 
+    </div><!-- /header -->
+    
+    <ul data-role="listview" data-inset="true">
+        <li><a href="#p32" style="text-align:center;">相簿1</a></li>
+        <li><a href="#p33" style="text-align:center;">相簿2</a></li>
+        <li><a href="#p34" style="text-align:center;">相簿3</a></li>
+        <li><a href="#p35" style="text-align:center;">相簿4</a></li>
+        <li><a href="#p36" style="text-align:center;">相簿5</a></li>
     </ul>
     <p><a href="#" data-rel="back">Back</a></p>
+</div><!-- /content -->
+<div data-role="footer" data-position="fixed">
+    <h4>@NFU</h4>
+</div><!-- /footer -->
+</div><!-- /page -->    
+
+
+<div data-role="page" id="p32" >
+    <div data-role="header"><h1>相簿</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/surface.jpg" alt="">
     </div><!-- /content -->
     <div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
+        <h4>@NFU</h4>
     </div><!-- /footer -->
-    </div><!-- /page -->    
-   
-
-    <div data-role="page" id="p32" >
-        <div data-role="header"><h1>相簿</h1></div>
-        <div role="main" class="ui-content">
-    <img src="images/surface.jpg" alt="">
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
 </div><!-- /page -->
-    <div data-role="page" id="p33" >
-        <div data-role="header"><h1>相簿</h1></div>
-        <div role="main" class="ui-content">
-    <img src="images/Article short article.png" alt="">
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
+<div data-role="page" id="p33" >
+    <div data-role="header"><h1>相簿</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/Article short article.png" alt="">
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed">
+        <h4>@NFU</h4>
+    </div><!-- /footer -->
 </div><!-- /page -->
-    <div data-role="page" id="p34" >
-        <div data-role="header"><h1>相簿</h1></div>
-        <div role="main" class="ui-content">
-    <img src="images/Fishing rod.jpg" alt="">
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
+<div data-role="page" id="p34" >
+    <div data-role="header"><h1>相簿</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/Fishing rod.jpg" alt="">
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed">
+        <h4>@NFU</h4>
+    </div><!-- /footer -->
 </div><!-- /page -->
-    <div data-role="page" id="p35" >
-        <div data-role="header"><h1>相簿</h1></div>
-        <div role="main" class="ui-content">
-    <img src="images/Rice cake.jpg" alt="">
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-    <h4>@NFU</h4>
-</div><!-- /footer -->
+<div data-role="page" id="p35" >
+    <div data-role="header"><h1>相簿</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/Rice cake.jpg" alt="">
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed">
+        <h4>@NFU</h4>
+    </div><!-- /footer -->
 </div><!-- /page -->
-    <div data-role="page" id="p36" >
-        <div data-role="header"><h1>相簿</h1></div>
-        <div role="main" class="ui-content">
-    <img src="images/beef noodles.jpg" alt="">
-    <p><a href="#" data-rel="back">Back</a></p>
-</div><!-- /content -->
-<div data-role="footer" data-position="fixed">
-<h4>@NFU</h4>
-</div><!-- /footer -->
+<div data-role="page" id="p36" >
+    <div data-role="header"><h1>相簿</h1></div>
+    <div role="main" class="ui-content">
+        <img src="images/beef noodles.jpg" alt="">
+        <p><a href="#" data-rel="back">Back</a></p>
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed">
+        <h4>@NFU</h4>
+    </div><!-- /footer -->
 </div><!-- /page -->
 
 </body>
